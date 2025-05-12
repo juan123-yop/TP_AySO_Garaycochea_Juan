@@ -1,5 +1,14 @@
-# TP_AySO_Garaycochea_Juanalumno: 
+materia1
+uni1
+dqd
 
-almuno: Juan Garaycochea
-Division: 211
-Turno: tarde
+
+
+
+
+
+wd
+
+
+
+

@@ -1,0 +1,397 @@
+ls
+rm -r repogit
+ls
+ls -l
+pwd
+whoami
+man
+man man
+man pwd
+man ls
+ls -la
+cd .ssh
+ls -la
+cd ..
+cat /etc/group
+cat /etc/group| more
+ls -l
+mkdir clase4
+ls -l
+cd clase4
+cat 
+ls -ls
+cat << FIN > archivo2.txt
+linea4
+linea 5
+linea  6
+otro
+FIN
+
+ls -l 
+cat archivo1.txt > archivo3.txt
+ls -l 
+cat archivo3.txt
+cat archivo1.txt
+cat archivo2.txt >> archivo3.txt
+cat archivo3.txt
+cat archivo2.txt > archivo3.txt
+cat archivo3.txt
+cat archivo2.txt archivo1.txt > archivo4.txt
+cat archivo4.txt
+grep 6 archivo3.txt
+grep 4 archivo4.txt
+grep -v 4 archivo4.txt
+grep -n 4 archivo4.txt
+grep linea 4 archivo4.txt
+grep -i -c linea archivo4.txt
+grep -i -c 6 archivo4.txt
+grep -i -c bla archivo4.txt
+cat/proc/cpuinfo
+cat/proc/cpuinfo | less
+cat/proc/cpuinfo |less
+cat /proc/cpuinfo |less
+mkdir vacia 
+ls -l
+ls -l vacia/
+mv archivo4.txt vacia/
+ls -l
+ls -l vacia/
+rm -r vaica/
+rm -r vacia/
+ls -l
+clear
+mkdir dir1 dir2 dir3
+ls -l
+tree
+sudo apt install tree
+sudo snap install tree
+tree
+mkdir -p dir4/arc1/arc2
+tree
+mkdir -p {dir1,dir2}/subdir{1..3}
+ls -l
+tree
+mkdir -p {dir5/subdir{1..3},dir6/{subdir{1..3},otrodir}
+tree
+rm -r {dir5
+ls -l 
+tree
+mkdir -p {dir5/subdir{1..3},dir6/{subdir{1..3},otrodir}}
+tree
+mkdir -p {subdir1/ojala{1..3}}
+tree
+rm -r {subdir1
+tree
+id
+cat /etc/passwd
+grep vagrant /etc/passwd
+cat /etc/grep
+sudo cat /etc/shadow
+groupadd mipc
+sudo groupadd mipc
+cat /etc/grep
+sudo useradd -m -s /bin/bash -c "Jente" -G mupc 
+sudo useradd -m -s /bin/bash -c "Jente" -G mipc 
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Jente" -G Jente 
+sudo useradd -m -s /bin/bash -c "Jente" -G Jente
+sudo useradd -m -s /bin/bash -c "Jente" -G mipc 
+cat /etc/group
+useradd -m -s /bin/bash -c "alumno Jente" -G Jente
+useradd -m -s /bin/bash -c "alumno Jente" -G mipc
+useradd -m -s /bin/bash -c "alumno Jente" -G mipc juan
+sudo useradd -m -s /bin/bash -c "alumno Jente" -G mipc juan
+sudo passwd juan 
+su -juan
+su - juan
+exit
+pwd
+ls
+ls -l
+cat clase4
+cat README
+cat clase4.txt
+man
+cat -help
+cat clase.txt 
+cat*.txt
+cat > doc1.txt
+ls -l
+ls -a
+ls doc1.txt
+cat doc1.txt >> clase4.txt
+ls doc1.txt
+cat doc1.txt
+cat clase4.txt
+cat > doc2.txt
+cat doc1.txt >> doc2.txt
+cat doc3.txt
+cat doc1.txt doc2.txt >> doc3.txt
+cat doc3.txt
+grep -i linea doc1.txt
+grep -i linea doc3.txt
+grep -c linea doc3.txt
+grep -r linea doc3.txt
+grep -r linea
+cat archivo1.txt
+cat clase4
+cat clase4.txt
+grep -n linea
+grep -v linea doc3.txt
+ls -l .ssh/
+cat .ssh/id_ed25519.pub
+sudo systemctl status sshd
+cat .ssh/id_ed25519.pub
+sudo cat .ssh/id_ed25519.pub
+cat.ssh/id_ed25519.pub
+cat .ssh/id_ed25519.pub
+cat .ssh/id ed25519.pub
+remove
+clean
+tree
+clear
+pwd
+rmdir doc3.txt
+rm doc3.txt
+tree
+ls snap
+ls tree
+rm doc1.txt
+rm doc2.txt
+tree
+rm clase4.txt
+tree
+ls -a
+ls -i
+ls -l
+whoami
+id
+groups
+w
+last
+mkdir paraunpoco.txt
+tree
+cat paraunpoco.txt
+rm dir6
+rm - r dir6
+rm -r dir6
+rm dic6
+mkdir -p{clase4}/{facturas,pedidos} 
+mkdir -p {calse4/{facturas,pedidos}}
+tree
+rm -r subdir1
+rm subdir2
+rm dir2
+rm -r dir1
+rm archivo1.txt archivo2.txt archivo3.txt 
+sudo su juan
+exit
+ls 'l
+
+ls -l
+
+ls -l
+tree
+ls
+ls -l 
+grups
+ls -l /hpme
+ls -l /home
+pwd
+useradd -m -s /bin/bash -c "segundo usuario" jente
+sudo useradd -m -s /bin/bash -c "segundo usuario" jente
+ls -l /home
+sudo passwd jente 
+su jente
+su - jente
+pwdd
+pwd
+sudo chown vagrant:vagrant /home/jente/texto.txt
+ls -l
+sudo ls -l /home/jente
+su - jente
+ls
+cat << fin > script1
+fin
+
+vim script1.sh
+ls -l
+cat script1.sh
+./script1.sh
+chmod 764 script1.sh
+ls -l
+./script1.sh
+ssh-keygen -t ed25519 
+ls -la
+ls -l .ssh/
+cat $HOME/.ssh/*.pub 
+cd repogit
+git clone git@github.com:juan123-yop/TP_AySO_Garaycochea_Juan.git
+ls -l
+cd TP_AySO_Garaycochea_Juan
+cat /etc/os-release 
+man grep
+grep HOME_URL /etc/os-release
+grep <parámetro> Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > 
+datos_url.txt 
+grep -i Home_url /etc/os-release > datos_url.txt
+cat datos_url.txt 
+git add .
+git git config --global user.email "garaycocheajuan2@gmail.com" 
+git config --global user.name "juan123-yop" 
+git commit -m "ADD: agregado 1er 
+ejercicio sobre datos_url.txt" 
+git status
+git push
+grep
+tail -n1
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er 
+ejercicio sobre datos_usuario.txt" 
+git push
+exit
+ls -l
+exit 
+ssh-keygen -t ed25519
+cd
+cd repogit
+ls -l
+exit
+cd rapogit
+cd repogit
+ls -l
+cd TP_AySO_Garaycochea_Juan
+pwd
+ls -l
+man grep
+git show
+grep
+grep tail -n1
+grep datos_usuarios.txt
+grep "model name "/proc/cpuinfo |head-n1 >>|datos_usuarios.txt
+cd repogit
+cd TP_AySO_Garaycochea_Juan
+grep "model name "/proc/cpuinfo |head -n1 >>|datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "ADD: Añadiendo informacion de CPU"
+git status
+git push
+ls -l
+cat<<EOF>>README.md
+alumno: 
+
+cat<<EOF>>README.md
+
+almuno: Juan Garaycochea
+Division: 211
+Turno: tarde
+EOF
+
+git add README.md datos_usuarios.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario" 
+git push
+exit
+cd repogit
+cd TP_AySO_Garaycochea_Juan
+pwd
+mk -p {Materia1,Materia2}/{uni1,uni2,uni3}
+mkdir -p {Materia1,Materia2}/{uni1,uni2,uni3}
+ls -l
+tree
+rm Materia1
+rmdir Matiera1
+rm -r Materia1
+rm -r Materia2
+ls -l
+sudo -i
+su
+group
+groups
+groups juan
+su 
+su
+su -
+exit
+cd repogit
+cd TP_AySO_Garaycochea_Juan
+[200~
+git config --list
+git config --get user.name
+git config
+su -
+history -a
+$HOME/.bash_history
+history -a
+cp ~/.bash_history ./Historial_comandos_Garaycochea.txt 
+git log
+user
+ls
+ls -l
+cat RAEDME.md
+cat <<fin > README.md
+materia1
+uni1
+dqd
+
+
+
+
+
+
+wd
+
+
+
+
+
+ls README
+id
+w
+su juanmipc
+sudo juan123-yop
+su juan123-yop
+grep juanmipc /etc/passwd
+id
+su juan123 yop
+su juan123-yop
+grep juan123-yop
+grep juan123-yop /etc/passwd
+sudo grep juan123-yop/etc/shadow 
+su juan123
+su juanmipc
+su mipc
+su MiPc
+mkdir -p {Materia1,Materia2}/{uni1,uni2,uni3}
+tree
+cat<< fin >script_dir.sh
+mkdir -p {Materia1,Materia2}/{uni1,uni2,uni3}
+fin
+
+chmod 764 script_dir.sh
+ls -l
+chmod 777 script_dir.sh
+ls -l
+cat<< fin >script_dir1.sh
+
+#!/bin/bash
+mkdir -p {Materia1,Materia2}/{uni1,uni2,uni3
+fin
+
+chmod 777 script_dir1.sh
+./script_dir1.sh
+ls -l
+cat script_dir1.sh
+nano script_dir1.sh
+ls script_dir1.sh
+./script_dir1.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+PATHS
+append $HOME/.bash_history 
+history -a

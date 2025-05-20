@@ -12,3 +12,6 @@ wd
 
 
 
+alumno: juan Garaycochea
+division: 211
+turno: tarde
